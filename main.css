@@ -1,0 +1,55 @@
+/* Inheritance */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/* Header & Footer */
+header, footer{
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+/* Class selector */
+.site-title{
+  color: #ffcc00;
+}
+
+/* Id selector */
+#my-image{
+  box-shadow: 0 0 2px 1px black;
+}
+
+/* Hobbies list */
+.hobbies{
+  list-style-type: square;
+}
+
+.hobbies li:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+/* Navigation */
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus{
+  background-color: #ffcc00;
+}
