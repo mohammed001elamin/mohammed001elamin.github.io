@@ -1,0 +1,176 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4e1df;
+    color: #222;
+}
+
+/* Main centered container */
+.wrapper {
+    width: 920px;
+    margin: 30px auto;
+    background-color: #f8f8f8;
+}
+
+/* Header image and title */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Site title positioned on top of the header image */
+.hero h1 {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+/* Navigation styling */
+.main-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #d8d8d8;
+}
+
+.main-nav li:last-child {
+    border-right: none;
+}
+
+.main-nav a {
+    display: block;
+    padding: 22px 0;
+    text-decoration: none;
+    color: #222;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* Main content area */
+main {
+    padding: 35px 22px 20px;
+}
+
+/* Heading styles */
+h2 {
+    margin-top: 0;
+    font-size: 44px;
+    font-weight: normal;
+}
+
+/* Article image with wrapped text */
+.story-content img {
+    float: left;
+    width: 260px;
+    margin: 0 20px 10px 0;
+}
+
+.story-content p {
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+/* Clear float after article */
+.story-content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Facts list */
+.facts-section ul {
+    padding-left: 25px;
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/* Form section */
+.contact-form {
+    border: 1px solid #bcbcbc;
+    padding: 18px;
+    font-size: 22px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.form-group textarea {
+    height: 135px;
+    resize: vertical;
+}
+
+/* Radio button group */
+.visit-fieldset {
+    border: none;
+    padding: 0;
+    margin: 22px 0;
+}
+
+.visit-fieldset legend {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.visit-fieldset label {
+    margin-right: 18px;
+}
+
+/* Submit button */
+button {
+    padding: 6px 12px;
+    border: 1px solid #666;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    padding: 15px 22px 25px;
+    text-align: right;
+    font-size: 18px;
+}
